@@ -12,7 +12,7 @@ To write a Java program to perform a brute-force attack on the Affine Cipher by 
 ### Algorithm
 1. Start the program.
 2. Prompt the user to enter the Ciphertext and convert it to uppercase.
-3. Define a list of valid values for key `a`. For the English alphabet of 26 letters, `a` must be coprime with 26. The valid values are 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25.
+3. Define a list of valid values for key `a`. For the English alphabet of 26 letters, `a` must be coprime with 26. The valid values are 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25
 4. Iterate through every valid value of key `a`:
    * Compute the modular multiplicative inverse of `a` modulo 26, denoted as $a^{-1}$.
    * Iterate through every possible value of key `b` from 0 to 25.
